@@ -4,7 +4,7 @@
 
 ### Adding Data
 
-**First we’ll create some training and test data.**
+**First we’ll create some training and test data:**
 Using/editing the dummmy data from `train.json` & `test.json`.
 
 ### Loading Data from Files
@@ -27,7 +27,7 @@ with open('train.json', 'r') as fp:
 
 ### Classifying Text
 
-Call the classify(text) method to use the classifier.
+Call the **classify(text)** method to use the classifier.
 
 ***Example:***
 

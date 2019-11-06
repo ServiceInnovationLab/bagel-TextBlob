@@ -47,6 +47,7 @@ for s in blob.sentences:
 ### For Sentiment Analysis
 
 ***Example of positive:***
+
 ```py
 from textblob import TextBlob
 from textblob.sentiments import NaiveBayesAnalyzer

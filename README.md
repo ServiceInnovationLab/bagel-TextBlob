@@ -43,3 +43,22 @@ for s in blob.sentences:
     print(s)
     print(s.classify())
 ```
+
+### For Sentiment Analysis
+
+***Example of positive:***
+```py
+from textblob import TextBlob
+from textblob.sentiments import NaiveBayesAnalyzer
+blob = TextBlob("I love this library", analyzer=NaiveBayesAnalyzer())
+blob.sentiment
+```
+
+***Example of negative:***
+
+```py
+from textblob import TextBlob
+from textblob.sentiments import NaiveBayesAnalyzer
+blob = TextBlob("My boss is horrible.", analyzer=NaiveBayesAnalyzer())
+blob.sentiment
+```

@@ -1,0 +1,9 @@
+[
+    {"text": "I love this sandwich.", "label": "pos"},
+    {"text": "This is an amazing place!", "label": "pos"},
+    {"text": "I feel very good about these beers.", "label": "pos"},
+    {"text": "I do not like this restaurant", "label": "neg"},
+    {"text": "I am tired of this stuff.", "label": "neg"},
+    {"text": "I can't deal with this", "label": "neg"},
+    {"text": "My boss is horrible.", "label": "neg"}
+]
